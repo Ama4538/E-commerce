@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <nav className="navbar" name='navbar'>
       <ul className="navbar-links default-text medium-font">
-        <li><Link to='/Home'>Home</Link></li>
+        <li><Link to='/'>Home</Link></li>
         <li><Link to='/Women'>Women</Link></li>
         <li><Link to='/Men'>Men</Link></li>
         <li><Link to='/Kids'>Kids</Link></li>
