@@ -1,0 +1,58 @@
+.picture-textWrapper {
+    place-self: center;
+    padding: 4rem 15rem;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 1rem;
+}
+
+.picture-textWrapper > h3 {
+    text-transform: uppercase;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.pictureContainer {
+    display: flex;
+    overflow: hidden;
+}
+
+.picture {
+    display: grid;
+    min-width: 100dvw;
+    min-height: 100dvh;
+    background-size: cover;
+    background-position: center;
+}
+
+.picture:nth-child(1) {
+    background-image: url(../assets/pictures/homeSectionOne.jpg);
+}
+
+.picture:nth-child(2) {
+    background-image: url(../assets/pictures/homeSectionTwo.jpg);
+}
+
+.picture:nth-child(3) {
+    background-image: url(../assets/pictures/homeSectionThree.jpg);
+}
+
+.next {
+    position: absolute;
+    top: 48%;
+    left: 92.5%;
+}
+
+.button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transform: scale(2);
+} 
+
+.button:hover {
+    transform: scale(2.5);
+}
