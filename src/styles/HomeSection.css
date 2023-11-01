@@ -15,11 +15,6 @@
     color: white;
 }
 
-.pictureContainer {
-    display: flex;
-    overflow: hidden;
-}
-
 .picture {
     display: grid;
     min-width: 100dvw;
@@ -30,29 +25,4 @@
 
 .picture:nth-child(1) {
     background-image: url(../assets/pictures/homeSectionOne.jpg);
-}
-
-.picture:nth-child(2) {
-    background-image: url(../assets/pictures/homeSectionTwo.jpg);
-}
-
-.picture:nth-child(3) {
-    background-image: url(../assets/pictures/homeSectionThree.jpg);
-}
-
-.next {
-    position: absolute;
-    top: 48%;
-    left: 92.5%;
-}
-
-.button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-    transform: scale(2);
-} 
-
-.button:hover {
-    transform: scale(2.5);
 }
