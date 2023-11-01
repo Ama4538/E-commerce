@@ -1,4 +1,4 @@
-import '../../styles/main.css';
+import '../../styles/Main.css';
 import '../../styles/HomeSection.css';
 
 const HomeSection = () => {
