@@ -3,7 +3,10 @@
 # E-commerce (WIP)
 Personal Portfolio Website containing projects, skills, and contacts. The challenge of this portfolio was to make it responsive to phones and tablets. 
 
-# TODO
+## Access
+Accessible from https://e-commerce-kevin-lys-projects.vercel.app
+
+## TODO
 - Fill Tabs with sections
 - Cart 
 - Search
